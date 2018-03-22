@@ -69,7 +69,7 @@ def run_inference_on_image(imagePath):
                       (imagePath[imagePath.index('/')+1:], time, human_string, score))
 
             if copy_images:
-                if score < 0.65:
+                if score < 0.75:
                     shutil.copy(imagePath, reviewFilePath)
                 else:
                     shutil.copy(imagePath, labeledFilePath)
