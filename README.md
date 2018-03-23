@@ -26,11 +26,11 @@ This will intall all dependencies necessary for deployment. There may be more pa
 
 
 
-## Running the script "label.py"**
+## Running the script "label.py"
 
 create a few folders in the main directory. The names of these files must be identical to what is in quotes below. 
 
-"images" - Place any images you wish to test agains the model in this folder. Images of white mice will work the best.
+"images" - Place any images you wish to test against the model in this folder. Images of white mice will work the best.
 
 "labeled" - This can remain empty
 
@@ -38,7 +38,7 @@ create a few folders in the main directory. The names of these files must be ide
 
 Now run main script via command line using command:
 
-**python label.py**
+*  **python label.py**
 
 Images which fall below the .75 confidence threshold will be placed in the "review" folder. Images which meet the threshold will be placed in the "labeled" folder. Check the log file to see which images were labeled what and what their confidence score was.
 
