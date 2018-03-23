@@ -16,17 +16,17 @@ to download the most recent version of anaconda (python 3.6 version), which incl
 
 Open the "ZylkaEnvironment" terminal. 
 
-Navigate to your local, downloaded directory  "MGS-pipeline-distribution" and install dependencies to new enviroment. This can be con via terminal commands
+Navigate to your local, downloaded directory  "MGS-pipeline-distribution" and install dependencies to new enviroment. This can be done via the following commands
 
-**cd PathToMGS-pipeline-distribution (will vary based on location of directory)
+* **cd PathToMGS-pipeline-distribution (will vary based on location of directory)**
 
-**pip install -r req.txt
+* **pip install -r req.txt**
 
 This will intall all dependencies necessary for deployment. There may be more packages downloaded than necessary, but this isn't the end of the world.
 
 
 
-## Running the script "label.py"
+## Running the script "label.py"**
 
 create a few folders in the main directory. The names of these files must be identical to what is in quotes below. 
 
