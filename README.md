@@ -18,11 +18,9 @@ Open the "ZylkaEnvironment" terminal.
 
 Navigate to your local, downloaded directory  "MGS-pipeline-distribution" and install dependencies to new enviroment. This can be con via terminal commands
 
-cd PathToMGS-pipeline-distribution (will vary based on location of directory)
+**cd PathToMGS-pipeline-distribution (will vary based on location of directory)
 
-pip install azure
-
-pip install -r req.txt
+**pip install -r req.txt
 
 This will intall all dependencies necessary for deployment. There may be more packages downloaded than necessary, but this isn't the end of the world.
 
@@ -40,7 +38,7 @@ create a few folders in the main directory. The names of these files must be ide
 
 Now run main script via command line using command:
 
-"python label.py"
+**python label.py**
 
 Images which fall below the .75 confidence threshold will be placed in the "review" folder. Images which meet the threshold will be placed in the "labeled" folder. Check the log file to see which images were labeled what and what their confidence score was.
 
